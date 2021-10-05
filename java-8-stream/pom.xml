@@ -25,7 +25,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>io.codebyexample.helloworld.Main</mainClass>
+							<mainClass>io.codebyexample.java8stream.Main</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

@@ -8,7 +8,7 @@ The hello-world project
 ## Project structure
 ```
 .
-├── java-8-stream
+├── stream
 │   ├── pom.xml
 │   ...
 ├── pom.xml
@@ -18,12 +18,25 @@ The hello-world project
 
 ## Start project
 
+- Build project  
 ```shell
-$ mvn clean package
-$ java -jar java-8-stream/target/java-8-stream-0.0.1-SNAPSHOT.jar
+$ ./mvnw clean package
+[INFO] 
+[INFO] Stream ............................................. SUCCESS [  5.907 s]
+[INFO] Parent ............................................. SUCCESS [  0.017 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.077 s
+[INFO] Finished at: 2022-07-27T09:26:36+07:00
+[INFO] ------------------------------------------------------------------------
 ```
 
-## Contribute
+
+```shell
+$ mvn clean package
+$ java -jar -stream/target/stream-0.0.1-SNAPSHOT.jar
+```
 
 ## Reference
 
